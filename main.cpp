@@ -16,7 +16,7 @@ int main(int argc, char** argv) {
 	for (int i; i < n; i++){
 		int data = rand() % 100 + 1;
 
-		printf("Adding %i\n", data);
+		printf("Agregando %i\n", data);
 
 		p.push(data);
 	}
